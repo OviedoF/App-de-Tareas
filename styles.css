@@ -136,3 +136,16 @@ form {
 .noTasks {
   font-size: 48px;
 }
+
+@media only screen and (max-width: 600px) {
+  .mainCard {
+    width: 80vw;
+    border-radius: 25px;
+    background-color: #fff;
+    padding: 15px;
+  }
+
+  .btnCreate {
+    padding: 5px 10px;
+  }
+}
